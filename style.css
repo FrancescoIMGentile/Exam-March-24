@@ -1,0 +1,443 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+display: flex;
+flex-direction: row;
+background-color: rgb(33, 32, 32);
+justify-content: space-between;
+}
+
+
+
+header img{
+    width: 10px;
+    margin-left: 5px;
+    flex-grow: 1;
+}
+
+#whatsapp {
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 5;
+    font-size: 10px;
+    
+}
+
+
+.pageselections {
+    display: flex;
+    flex-grow: 5;
+    justify-content: flex-end;
+
+    
+    
+}
+
+
+
+.pageselections span {
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+
+
+.display {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(33, 32, 32);
+    
+}
+
+.leftbar {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 32, 32);
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+
+
+.leftset {
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+
+
+.leftset span {
+    color: white;
+    font-size: 15px;
+
+}
+
+
+
+#backgray  {
+
+    background-color: rgb(52, 51, 51);
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.leftsettwo {
+    margin-left: 0px;
+}
+.leftsettwo span{
+    color: white;
+    font-size: 15px
+}
+
+
+
+#accountphoto img{
+    width: 15px;
+    border-radius: 50px;
+    
+    
+}
+
+.centerbar {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(52, 51, 51);
+    flex-grow: 2;
+    border: 1px solid rgb(33, 32, 32);
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.optionsone {
+    display: flex;
+    color: white;
+
+}
+
+.chatoptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.chatoptions > div:first-child {
+    margin-left: 20px;
+}
+
+
+.chatoptions span {
+    font-size: 15px;
+}
+
+
+.optionsone div:first-child {
+    flex-grow: 6;
+}
+.optionsone div:nth-child(2) {
+    flex-grow: 2;
+
+
+}
+.optionsone div:nth-child(3) {
+    flex-grow: 2;
+}
+
+.optionthree {
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+
+.optionthree > div:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: gray;
+}
+
+.optionthree > div:first-child {
+    
+    justify-content: center;
+}
+.optionthree > div:nth-child(2) {
+    
+    margin-left: 5px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.optionthree > div:nth-child(2) {
+    
+    justify-content: center;
+}
+
+
+.messageone {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.messageone span{
+    color: green;
+}
+
+#Digitazon {
+    color: white;
+}
+#Green {
+    color: green;
+}
+#Gray {
+    color: gray;
+}
+
+.infomessage > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    
+}
+
+.infomessage > div:nth-child(2) {
+    display: flex;
+    font-size: 10px;
+}
+
+.infomessage > div:nth-child(2) span  {
+  
+    font-size: 10px;
+}
+
+
+.messageone img {
+    width: 20px;
+    border-radius: 50px;
+}
+
+#thirdmessage  {
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.textingarea {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 7;
+    border: 1px solid rgb(33, 32, 32);
+}
+
+
+
+.profileitems {
+    display: flex;
+    background-color: rgb(52, 51, 51);
+    
+}
+
+.profileitems .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+.profileitems img {
+    align-content: center;
+    width: 20px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.profileitems img {
+    flex-grow: 1;
+    
+}
+
+.profileitems .textarea {
+    flex-grow: 7;
+    margin-left: 15px;
+    
+}
+
+.textinfo {
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.actions{
+
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+
+.actions div span {
+    color: white;
+    font-size: 10px;
+    
+}
+
+.actions div {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.actions {
+    display: flex;
+}
+
+.textingarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.landmessages {
+
+    background-image: url(imgn/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-grow: 8;
+}
+
+.recived {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+
+
+.firstmessage img{
+    width: 100px;
+    border: 10px solid rgb(52, 51, 51);
+    border-radius: 5px;
+}
+
+.secondmessage {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(52, 51, 51);
+    border-radius: 5px;
+    font-size: 10px;
+    width: 50%;
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title > div:first-child {
+     color: white;
+}
+
+.title > div:nth-child(2) {
+    color: grey;
+}
+
+#time {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}
+
+.sended {
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 70px;
+    height: 40%;
+}
+
+.sended p {
+    font-size: 10px;
+}
+
+.personaleid {
+    font-size: 10px;
+    color: rgb(32, 31, 31);
+}
+
+#timer {
+    font-size: 10px;
+    color: rgb(32, 31, 31);
+}
+.bottombar {
+    display: flex;
+    background-color:  rgb(52, 51, 51);
+    
+}
+
+
+.emoticonandattach {
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.emoticonandattach div span{
+    justify-content: space-around;
+    font-size: 15px;
+    color: white;
+}
+
+#textbars {
+    flex-grow: 8;
+    
+}
+
+
+#microphone {
+    margin-right: 5px;
+    
+}
+
+#microphone span {
+    font-size: 15px;
+    color: white;
+    
+}
