@@ -21,7 +21,6 @@ justify-content: space-between;
 }
 
 
-
 header img{
     width: 10px;
     margin-left: 5px;
@@ -39,7 +38,6 @@ header img{
     
 }
 
-
 .pageselections {
     display: flex;
     flex-grow: 5;
@@ -49,8 +47,6 @@ header img{
     
 }
 
-
-
 .pageselections span {
     color: white;
     font-size: 10px;
@@ -58,8 +54,6 @@ header img{
     
     
 }
-
-
 
 .display {
    
@@ -80,12 +74,10 @@ header img{
 }
 
 
-
 .leftset {
     margin-top: 5px;
     margin-left: 0px;
 }
-
 
 
 .leftset span {
@@ -93,8 +85,6 @@ header img{
     font-size: 15px;
 
 }
-
-
 
 #backgray  {
 
@@ -106,6 +96,7 @@ header img{
 .leftsettwo {
     margin-left: 0px;
 }
+
 .leftsettwo span{
     color: white;
     font-size: 15px
